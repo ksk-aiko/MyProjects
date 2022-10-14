@@ -1,0 +1,60 @@
+.machine-container {
+    background-color: rgb(52, 34, 171);
+}
+
+.image-box {
+    /* object-fit: cover; */
+    width: 90%;
+    height: 90%;
+    border-radius: 5%;
+}
+
+.default-image-box {
+    height: 90%;
+    width: 100%;
+    border-radius: 5%;
+}
+
+.title-img {
+    position: relative;
+}
+
+.title-message {
+    position:absolute;
+    top: 50%;
+    left: 10%;
+    color: white;
+}
+
+.message-box {
+    border-radius: 5%;
+}
+
+.pressed-btn {
+    background-color: rgb(39, 79, 224);
+    height: 30%;
+    width: 90%;
+    font-size: 2rem;
+    text-align: center;
+    padding-top:1.5rem;
+    color: white;
+}
+
+.deplete-animation {
+    animation: deplete 1s  ease-out forwards;
+}
+
+.expand-animation {
+    animation: deplete 1s ease-in reverse forwards;
+}
+
+@keyframes deplete {
+    0% {
+        width: 100%;
+        opacity: 1;
+    }
+    100% {
+        width: 0%;
+        opacity: 0;
+    }
+}
