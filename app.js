@@ -91,7 +91,7 @@ let leftPanel = document.getElementById("left-panel");
 let imageArea = document.getElementById("image-area");
 let messageArea = document.getElementById("message-area");
 
-leftPanel.classList.add("col-6", "d-flex", "row", "justify-content-around");
+leftPanel.classList.add("col-md-6", "col-12", "d-flex", "row", "justify-content-around");
 imageArea.classList.add(
   "col-8",
   "mt-3",
@@ -138,7 +138,7 @@ let titleArea = document.getElementById("title-area");
 let descriptionArea = document.getElementById("description-area");
 let btnArea = document.getElementById("btn-area");
 
-rightPanel.classList.add("col-6", "d-flex", "row", "justify-content-around");
+rightPanel.classList.add("col-md-6", "col-12", "d-flex", "row", "justify-content-around");
 titleArea.classList.add("col-12", "mt-3", "p-0");
 descriptionArea.classList.add("col-12", "mt-3", "p-0");
 btnArea.classList.add(
